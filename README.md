@@ -19,4 +19,4 @@ A simple xamarin app has been created in order to instanciate and render the bub
 
 ## Demo
 
-<img src="SolutionItems/bubbles-picker.gif" alt="bubbles picker demo" height="350" style="display:inline-block;" />
+<img src="SolutionItems/bubble-picker-demo.gif" alt="bubbles picker demo" height="350" style="display:inline-block;" />
