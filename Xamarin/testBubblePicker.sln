@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testBubblePicker", "testBubblePicker\testBubblePicker.csproj", "{A6AABD93-53F1-4750-9F41-59833E9723F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testBubblePicker.Binding", "testBubblePicker.Binding\testBubblePicker.Binding.csproj", "{317F9180-4858-4DE2-A408-A6584C7DC93A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6AABD93-53F1-4750-9F41-59833E9723F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AABD93-53F1-4750-9F41-59833E9723F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AABD93-53F1-4750-9F41-59833E9723F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AABD93-53F1-4750-9F41-59833E9723F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317F9180-4858-4DE2-A408-A6584C7DC93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317F9180-4858-4DE2-A408-A6584C7DC93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317F9180-4858-4DE2-A408-A6584C7DC93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317F9180-4858-4DE2-A408-A6584C7DC93A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
