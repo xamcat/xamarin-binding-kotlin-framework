@@ -24,7 +24,7 @@ Kotlin was released in February 2016 and was positioned as an alternative to the
 
 1. Build a Xamarin.Android binding library
 
-    The third step is to create a special kind of project - a Xamarin.Android Binding Library. It includes the Kotlin libraries as native references and the metadata transformation defined in the previous step. At time of writing, a separate Android Binding Library project is required for each .aar package being referenced. The Binding Library must add the [Xamarin.Kotlin.StdLib package](https://www.nuget.org/packages/Xamarin.Kotlin.StdLib/) in order to support the Kotlin Standard Library. It must also add the [Xamarin.Kotlin.BindingSupport package](https://www.nuget.org/packages/Xamarin.Kotlin.BindingSupport/) which injects an extra build step to preprocess the generated XML with all the classes and handles required for dealing with some special cases.
+    The third step is to create a special kind of project - a Xamarin.Android Binding Library. It includes the Kotlin libraries as native references and the metadata transformation defined in the previous step. At time of writing, a separate Android Binding Library project is required for each .aar package being referenced. The Binding Library must add the [Xamarin.Kotlin.StdLib package](https://www.nuget.org/packages/Xamarin.Kotlin.StdLib/) in order to support the Kotlin Standard Library.
 
 1. Consume the Xamarin binding library
     The fourth and the final step is to reference the binding library in a Xamarin.Android application. Adding a reference to the Xamarin.Android Binding Library enables your Xamarin application to use the exposed Kotlin classes from within that package.
@@ -342,6 +342,5 @@ We should now have a basic Xamarin.Android application that uses a native Kotlin
 - [Binding Java Library](https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/)
 - [XPath](https://www.w3.org/TR/xpath/)
 - [Java Binding Metadata](https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/customizing-bindings/java-bindings-metadata)
-- [Xamarin.Kotlin.BindingSupport nuget](https://www.nuget.org/packages/Xamarin.Kotlin.BindingSupport/)
 - [Xamarin.Kotlin.StdLib nuget](https://www.nuget.org/packages/Xamarin.Kotlin.StdLib/)
 - [Sample project repository](https://github.com/alexeystrakh/xamarin-binding-kotlin-framework)
