@@ -343,4 +343,4 @@ We should now have a basic Xamarin.Android application that uses a native Kotlin
 - [XPath](https://www.w3.org/TR/xpath/)
 - [Java Binding Metadata](https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/customizing-bindings/java-bindings-metadata)
 - [Xamarin.Kotlin.StdLib nuget](https://www.nuget.org/packages/Xamarin.Kotlin.StdLib/)
-- [Sample project repository](https://github.com/alexeystrakh/xamarin-binding-kotlin-framework)
+- [Sample project repository](https://github.com/xamcat/xamarin-binding-kotlin-framework)
